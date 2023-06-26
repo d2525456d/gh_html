@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto",sans-serif;
+}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+}
+
+header{
+    display: block;
+    height: 100px;
+    background: #da730d;
+    border:7px solid #333;
+    
+}
+header h1{
+    padding-left: 30px;
+    padding-top: 25px;
+    color:aliceblue;
+    font-size: 50px;
+}
+nav{
+    height: 35px;
+    background: red;
+    position: sticky;
+    top:0px;
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+}
+nav .menu ul li a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+div #slide{
+    width: 1500px;
+    height: 100px;
+    background: #C0C0C0;
+    margin-bottom: 25px;
+}
+div #slide img{
+    padding-top: 7px;
+    padding-left: 250px;
+}
+
+article .news .news_item{
+    width: 35%;
+    padding: 3%;
+    float: left;
+}
+
+article .news .news_item img{
+    width: 100%;
+}
+article .news .news_item h3{
+    font-size: 35px;
+}
+article .news .news_item2 img{
+    width: 100%;
+}
+article .news .news_item2{
+    width: 28%;
+    float:left;
+}
+
+article .news2 .news_it img{
+    width: 100%;
+}
+article .news2 .news_it{
+    width: 23%;
+    padding:1%;
+    float: left;
+}
+
+footer{
+    background-color: #333;
+    color:#fff;
+    padding: 15px;
+    text-align: center;
+    clear:both
+}
+
+aside{
+    float: right;
+    padding: 30px;
+    width: 20%;
+    background-color: #C0C0C0;
+}
